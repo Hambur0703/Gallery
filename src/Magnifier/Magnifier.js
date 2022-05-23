@@ -1,11 +1,11 @@
 export class Magnifier {
   /**
-   * 显示原图的canvas
+   * show origin canvas
    */
   canvas = null
 
   /**
-   * 显示放大镜的canvas
+   * show magnified canvas
    */
   offCanvas = null
 
@@ -14,17 +14,17 @@ export class Magnifier {
   offContext = null
 
   /**
-   * 放大倍数
+   * magnification
    */
   scale = 0
 
   /**
-   * 圆的半径
+   * radius
    */
   r = 0
 
   /**
-   * 鼠标是否按下
+   * whether the mouse is pressed
    */
   isMouseDown = false
 

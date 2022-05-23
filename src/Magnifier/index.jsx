@@ -20,7 +20,7 @@ const MagnifierComponent = ({ url, width = 400, height = 400 }) => {
 
   return (
     <>
-      <canvas ref={canvasRef}>您的浏览器尚不支持canvas</canvas>
+      <canvas ref={canvasRef}>Your browser doesn't support canvas</canvas>
       <canvas style={{ display: 'none' }} ref={offCanvasRef}></canvas>
     </>
   )

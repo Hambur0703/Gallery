@@ -23,7 +23,7 @@ function App() {
 
   useEffect(() => {
     const handleWidth = () => {
-      // 获取整个网页的宽度
+      // Get the width of the entire webpage
       setWidth(document.body.scrollWidth)
     }
     handleWidth()
